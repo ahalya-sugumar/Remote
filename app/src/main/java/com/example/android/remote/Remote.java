@@ -30,13 +30,13 @@ public class Remote extends AppCompatActivity {
         togg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                
+
                     new AsyncTask<Void,Void,Void>(){
                         @Override
                         protected Void doInBackground(Void... params) {
                             try {
                                 HttpClient client = new DefaultHttpClient();
-                                URI website = new URI("http://192.168.1.7/?pin=10");
+                                URI website = new URI("http://www.google.com/?search=obama");
                                 HttpGet request = new HttpGet();
                                 request.setURI(website);
                                 client.execute(request);

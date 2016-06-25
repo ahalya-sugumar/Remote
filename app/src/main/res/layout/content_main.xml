@@ -30,5 +30,7 @@
         android:id="@+id/btnSignIn"
         android:layout_centerVertical="true"
         android:layout_alignLeft="@+id/btnSignUp"
-        android:layout_alignStart="@+id/btnSignUp" />
+        android:layout_alignStart="@+id/btnSignUp"
+        android:layout_alignRight="@+id/btnSignUp"
+        android:layout_alignEnd="@+id/btnSignUp" />
 </RelativeLayout>
